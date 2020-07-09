@@ -9,14 +9,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UI.Register_screen"></activity>
-        <activity android:name=".UI.Login__Screen" />
-        <activity android:name=".UI.Welcome_screen" />
+        <activity
+            android:name=".UI.My_profile"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".UI.Contact_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.About_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.ui.Shopping_cart.Shopping_cart_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.City_screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.State_List_screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Register_screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Login__Screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Welcome_screen"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".UI.Home_screen"
-            android:label="@string/title_activity_home_screen" />
-        <activity android:name=".UI.MainActivity" />
-        <activity android:name=".UI.Splash">
+            android:label="@string/title_activity_home_screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Splash"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
